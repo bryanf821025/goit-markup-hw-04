@@ -256,6 +256,7 @@ address {
 
 .content {
   margin: 32px 32px;
+  /*align-items: center;*/
 }
 
 .profile-name {
@@ -280,6 +281,8 @@ address {
   height: 16px;
   align-items: center;
   gap: 24px;
+  border-radius: 12px;
+  
   
 }
 
