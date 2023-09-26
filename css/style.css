@@ -273,6 +273,11 @@ address {
   letter-spacing: 0.32px;
 }
 
+.social-links{
+  display: flex;
+  text-decoration: none;
+}
+
 /* FOOTER */
 
 .page-footer {
