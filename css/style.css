@@ -241,19 +241,33 @@ address {
 
 .bg-team {
   background-color: var(--cloud);
-  padding: 120px 0px;
+  padding: 232px 0px 120px 156px
+}
+.team-title{
+  color: var(--navyblue);
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
-.team {
+.staff {
   display: flex;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
 }
 
 .team .item {
-  flex-basis: calc((100% - 72px) / 4);
+  /*flex-basis: calc((100% - 72px) / 4);*/
+  justify-content: center;
   border-radius: 0px 0px 4px 4px;
-  background: var(--WHITE, #fff);
+  background: var(--white);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -265,16 +279,18 @@ address {
   margin-bottom: 8px;
 }
 
+.container-team{
+  justify-content: center;
+}
 
-
-.content {
-  margin: 32px 32px;
+.staff-details {
+  margin: 32px 0px 32px 0px;
   justify-items: center;
   
 
 }
 
-.name {
+.profile-name {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
@@ -283,7 +299,7 @@ address {
   margin-bottom: 8px;
 }
 
-.position {
+.profile-post {
   color: var(--navyblue);
   font-size: 16px;
   line-height: 1.15;
@@ -291,17 +307,7 @@ address {
   margin-bottom: 8px;
 }
 
-.social-media{
-  display: flex;
-  /*flex-basis: calc((100% - 72px) / 4);*/
-  /*justify-items: center;*/
-  /*margin-right:24px;*/
-  column-gap: 24px;
-}
 
-.profile-links{
-  
-}
 
 /* FOOTER */
 
