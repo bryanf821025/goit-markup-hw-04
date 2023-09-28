@@ -261,6 +261,7 @@ address {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  
 }
 
 .team .item {
@@ -272,23 +273,25 @@ address {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
-.team .profile-name,
-.team .profile-post {
+.staff-details{
+  margin: 32px 0px 32px 0px;
+}
+.staff-details .profile-name,
+.staff-details .profile-post {
   text-align: center;
   margin-bottom: 8px;
+  
 }
+
+
 
 .container-team{
   justify-content: center;
 }
 
-.staff-details {
-  margin: 32px 0px 32px 0px;
-  justify-items: center;
+
   
 
-}
 
 .profile-name {
   color: var(--navyblue);
@@ -297,6 +300,7 @@ address {
   line-height: 1.15;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
+  
 }
 
 .profile-post {
