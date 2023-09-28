@@ -35,7 +35,7 @@ ul {
 }
 
 img {
-  display: block;
+  display: flex;
 }
 
 address {
@@ -185,6 +185,15 @@ address {
   display: flex;
   gap: 24px;
 }
+
+.features-images{
+  margin: 24px 100px;
+  border-radius: 4px;
+  background: var(--cloud);
+  
+}
+
+
 
 .features .item {
   flex-basis: calc((100% - 72px) / 4);
