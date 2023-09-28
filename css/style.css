@@ -265,12 +265,7 @@ address {
   margin-bottom: 8px;
 }
 
-.profile-links{
-  justify-content: center;
-  padding: 12px;
-  border-radius: 12px;
-  color: var(--iris);
-}
+
 
 .content {
   margin: 32px 32px;
@@ -294,12 +289,18 @@ address {
 
 .social-links{
   display: flex;
-  margin-top: 8px;
+  flex-basis: calc((100% - 72px) / 4);
   width: 16px;
   height: 16px;
-  align-items: center;
+  justify-content: center;
+  /*margin-right:24px;*/
   gap: 24px;
   border-radius: 12px;
+  color: var(--iris);
+  /*padding: 0px 0px;*/
+  
+ 
+
   
   
 }
