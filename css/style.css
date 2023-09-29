@@ -314,6 +314,16 @@ address {
   
 }
 
+.social-media-icons{
+  display: flex;
+  padding: 0px 0px;
+  justify-content: center;
+  /*justify-items: center;*/
+  margin-bottom: 32px;
+  gap: 24px;
+
+}
+
 
 
 .container-team{
