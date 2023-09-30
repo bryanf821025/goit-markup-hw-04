@@ -352,6 +352,28 @@ address {
   margin-bottom: 8px;
 }
 
+.customer{
+  margin:
+}
+
+.customer-title{
+  text-align: center;
+  color: var(--NAVY-BLUE, #2E2F42);
+  text-align: center;
+  /*font-family: Roboto;*/
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: 0.72px;
+  margin-bottom: 72px;
+
+}
+
+.client-icons{
+  display: flex;
+  gap: 24px;
+}
 
 
 /* FOOTER */
@@ -388,6 +410,7 @@ address {
   font-weight: 500;
   line-height: 1.15;
   letter-spacing: 0.64px;
+  border-radius: 4px;
 }
 
 .row-one, .row-two, .row-three{
